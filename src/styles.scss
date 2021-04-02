@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+// @import "~material-design-icons/iconfont/material-icons.css";
 :root {
   --primary-color: #dc3545;
   --dark-color: #333333;
@@ -11,6 +12,7 @@
   box-sizing: border-box;
 }
 body {
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;

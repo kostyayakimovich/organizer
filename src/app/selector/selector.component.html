@@ -1,1 +1,7 @@
-<p>selector works!</p>
+<p>
+    <img src="../../assets/images/left-arrow-icon.png" class="icon icon_arrow_left" alt="arrow_left"
+    (click) = "go(-1)" />
+    <span>{{dateService.date | async | moment}}</span>
+    <img src="../../assets/images/left-arrow-icon.png" class="icon icon_arrow_right" alt="icon_arrow_right"
+    (click) = "go(1)"/>
+</p>
